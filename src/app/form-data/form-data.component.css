@@ -1,0 +1,78 @@
+
+
+.poll{
+    /* position: absolute; */
+width: 141px;
+height: 29px;
+left: 239px;
+/* top: 24px; */
+
+font-family: 'Inter';
+font-style: normal;
+/* font-weight: 500; */
+font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+margin: auto;
+margin-top: 20px;
+text-align: center;
+text-align: center;
+
+color: hsl(0, 16%, 91%);
+}
+
+
+.option-field{
+    display: flex; border: 1px solid rgb(48, 46, 46);
+    background: #2B3135;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin: auto;
+    margin-top: 30px;
+    overflow-wrap: break-word;
+}
+
+.option{
+    color: rgb(247, 238, 238);
+     padding-left: 20px; 
+     padding-top: -5px;
+     font-size: 15px;
+     margin-top: 10px;
+}
+.question{
+    color: rgb(252, 244, 244);
+    margin: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin-top: 20px;
+}
+
+.progress-poll
+{ 
+    color:white; 
+    width: 480px;
+    padding-left: 14px;
+    padding-top: 10px;
+    font-size: 17px;
+    font-style: normal;
+    font-family: Inter;
+}
+.option-field:active{
+  background: linear-gradient(90deg, #4136F1 0%, #8743FF 100%) ;
+}
+.selected{
+    background: linear-gradient(90deg, #4136F1 0%, #8743FF 100%) ;
+    border-radius: 8px;
+}
+.emailField{
+    width: 516px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 24px;
+
+}

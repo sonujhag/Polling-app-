@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+/* .main{
+    margin: auto;
+    text-align: center;
+} */
+/* @import "~@angular/material/prebuilt-themes/deeppurple-amber.css"; */
+
+html, body { height: 100%;margin: 0; }
+body {font-family: 'Inter';font-style: normal;background: #1A1A1A;color: white;}
+
+.color-red {
+color: red;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  
+  background-color: transparent !important;
+}
+
+
+::-webkit-scrollbar-track {
+  
+  background-color: transparent !important;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-clip: content-box;
+ 
+  background-color: #383F4D !important;
+
+  /* background-image: linear-gradient(to right, #8A39C3 0%, rgb(195, 57, 184) 100%); */
+}
+
+
+html, body { height: 100%; }
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
